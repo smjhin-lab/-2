@@ -24,6 +24,7 @@ namespace IndoorSim.EditorTools
             // [기존 코드]
             EnvironmentBuilder.Generate(root);
             CreateSampleBeacons(root);
+            GenerateCustomSafePath(root);
 
             // 👇 [이 부분을 통째로 교체합니다!] 👇
             int safeLayer = LayerMask.NameToLayer("SafePath");
