@@ -50,13 +50,13 @@ public class NavigationGuide : MonoBehaviour
 
     private void PatchAllElevators()
     {
-        NavMeshLink[] oldLinks = Object.FindObjectsByType<NavMeshLink>(FindObjectsInactive.Exclude);
+        NavMeshLink[] oldLinks = Object.FindObjectsByType<NavMeshLink>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
         foreach (var link in oldLinks)
         {
             if (link.area == 3) Destroy(link.gameObject);
         }
 
-        ElevatorCab[] allElevators = Object.FindObjectsByType<ElevatorCab>(FindObjectsInactive.Exclude);
+        ElevatorCab[] allElevators = Object.FindObjectsByType<ElevatorCab>(FindObjectsInactive.Exclude, FindObjectsSortMode.None);
         GameObject globalLinks = new GameObject("Global_Elevator_Links");
         globalLinks.transform.position = Vector3.zero;
 
