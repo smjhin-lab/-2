@@ -28,3 +28,6 @@
 -TestManager.cs (시스템 관리자): 좌측 Hierarchy 창 빈 공간을 우클릭하고 Create Empty를 눌러 빈 오브젝트를 만듭니다. 이름을 @TestManager로 바꾸고(@ 붙여야함), 이 TestManager.cs 를 드래그해서 넣어줍니다.
 
 기존에 있던 비콘을 전부다 지우고 하세욤! 비콘들은 BeaconExport 파일에 있어욤.
+처음 시작하고 asset 파일-> Beacons 파일 가서 BeaconExport 파일을 헤리티에 집어넣으면 비콘들이 위에 있을거임.
+그거 위치 바꿔주기 위해 beaconexport 파일 누르고 오른쪽에서 포지션을
+x:-8.62138, y:-13.7, z: -55.70742 이렇게 바꾸면 됨.
