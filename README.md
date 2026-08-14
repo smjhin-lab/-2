@@ -30,3 +30,5 @@
 2.파일을 만들었으면 유니티 씬(Scene)에 있는 물체들에게 기능을 달아주어야 합니다.
 -맵에 배치할 모든 '비콘' 오브젝트들을 선택한 뒤, 우측 Inspector 창으로 BeaconNode.cs를 드래그해서 넣어줍니다. (이후 Tx Power는 -50, Path Loss N은 3 정도로 설정합니다.)
 -TestManager.cs (시스템 관리자): 좌측 Hierarchy 창 빈 공간을 우클릭하고 Create Empty를 눌러 빈 오브젝트를 만듭니다. 이름을 @TestManager로 바꾸고(@ 붙여야함), 이 TestManager.cs 를 드래그해서 넣어줍니다.
+
+기존에 있던 비콘을 전부다 지우고 하세욤! 비콘들은 BeaconExport 파일에 있어욤.
